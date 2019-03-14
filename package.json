@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "author": "William Amed <watamayo90@gmail.com> (http://raptorweb.cubava.cu/)"",
+  "author": "William Amed <watamayo90@gmail.com> (http://raptorweb.cubava.cu/)",
   "license": "MIT",
   "bin":{
 	  "raptor-droid":"./bin/raptor-droid.js"
