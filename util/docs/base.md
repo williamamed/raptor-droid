@@ -14,18 +14,23 @@ puedes comunicarte con los principales servicios del backend de la aplicación.
  * Ejecutar Intents nativos
  * Soporte a Base de Datos
 
-*Versión actual: [v0.0.1-Beta][dist]*
-
-
 
 Comenzando
 ---------------
 Lo primero que haremos será instalar Node.js en nuestro equipo, una vez instalado utilizaremos el gestor de
 paquetes de node `npm` para instalar `raptor-droid` utilizando el paquete tar descargado(Pronto estará en el npm registry).
-Indicaremos que la instalación sera de forma global así que especificaremos el siguiente comando:
+Indicaremos que la instalación sera de forma global así que especificaremos el siguiente comando.
+
+Con conexión a internet:
+``` batch
+$npm install raptor-droid -g
+```
+
+Sin conexión a internet y teniendo el paquete offline:
 ``` batch
 $npm install /direccion/local/al/paquete/raptor-droid-0.0.3.tgz -g
 ```
+
 Una vez instalado crearemos un nuevo proyecto en forma de paquete node en un directorio de nuestro equipo:
 
 ``` batch
