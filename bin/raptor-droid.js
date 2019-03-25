@@ -243,7 +243,7 @@ program
   .option('install', 'Instala la apk')
   .option('backend <name>', 'Crea un backend java que extiende de Controller para esta app')
   .option('genicon', 'Utilidad para generar iconos')
-  .option('release <keystore> <alias> <storepassword> <keypassword>', 'Genera la apk modo release')
+  .option('release <keystore> <storepassword> <keypassword>', 'Genera la apk modo release')
   //.option('tasks', 'Lista las tareas gradle')
   .option('gradle [ar...]', 'Ejecuta una tarea gradle')
   .option('docs', 'Muestra la documentación de Raptor-droid')
@@ -293,7 +293,7 @@ if(program.gradle){
 	mobile.runGenericApp('gradlew.bat',argumentsComand)
 }
 if(program.release){
-	return;
+	
 	if(fs.existsSync(path.join(os.homedir(),program.release+".jks"))){
 		mobile.runGeneric('raptor-release.bat',[path.join(os.homedir(),program.release+".jks"),program.args[0],program.release,program.args[1]])
 	}else{

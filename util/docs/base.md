@@ -249,6 +249,7 @@ Indica que se levante el intent especificado en el atributo `action` del paráme
 `Object:`
 
  * `action:` String, nombre del intent a levantar.
+ * `uri:` String, uri del intent.
  * `extras:` Array, extras especificados
  * `result:` Integer(opcional), identificador entero del resultado esperado del intent
 
