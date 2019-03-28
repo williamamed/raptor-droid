@@ -1,6 +1,6 @@
 {
   "name": "raptor-droid",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tool for create android embedded web apps",
   "main": "index.js",
   "scripts": {
